@@ -497,6 +497,37 @@
       line-height: 1.75;
       opacity: 0.70;
     }
+    @media (max-width: 768px) {
+  body {
+    padding: 24px 16px 48px;
+    background-attachment: scroll;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .card,
+  .chart-card,
+  .result-card {
+    padding: 22px 18px;
+  }
+
+  .stats-row {
+    grid-template-columns: 1fr;
+  }
+
+  .big-number {
+    font-size: 2.8rem;
+  }
+
+  .eyebrow-pill,
+  .card-badge {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
   </style>
 </head>
 <body>
