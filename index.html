@@ -499,33 +499,163 @@
     }
     @media (max-width: 768px) {
   body {
-    padding: 24px 16px 48px;
+    padding: 20px 12px 40px;
     background-attachment: scroll;
   }
 
-  h1 {
-    font-size: 2.2rem;
+  .content {
+    max-width: 100%;
+    gap: 14px;
   }
 
-  .card,
-  .chart-card,
-  .result-card {
-    padding: 22px 18px;
-  }
-
-  .stats-row {
-    grid-template-columns: 1fr;
-  }
-
-  .big-number {
-    font-size: 2.8rem;
+  .header {
+    margin-bottom: 0;
   }
 
   .eyebrow-pill,
   .card-badge {
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
+    max-width: 100%;
+    line-height: 1.4;
+  }
+
+  .eyebrow-pill {
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+    padding: 8px 12px;
+    margin-bottom: 14px;
+  }
+
+  .card-badge {
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 18px;
+    padding: 6px 10px;
+  }
+
+  h1 {
+    font-size: 1.95rem;
+    line-height: 1.05;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 0.82rem;
+    line-height: 1.55;
+    max-width: 100%;
+  }
+
+  .header-rule {
+    margin: 14px auto;
+  }
+
+  .card,
+  .chart-card {
+    padding: 20px 14px;
+    border-radius: 18px;
+  }
+
+  .result-card {
+    padding: 24px 14px 20px;
+    border-radius: 20px;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  .slider-label {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .slider-label .lbl {
+    font-size: 0.8rem;
+  }
+
+  .slider-label .val {
+    font-size: 0.9rem;
+    min-width: 0;
+    padding: 4px 10px;
+  }
+
+  .chip-row {
+    gap: 6px;
+    margin-top: 12px;
+  }
+
+  .chip {
+    font-size: 0.7rem;
+    padding: 7px 10px;
+  }
+
+  .rate-hint {
+    font-size: 0.72rem;
+    line-height: 1.5;
+    padding: 11px 12px;
+  }
+
+  .big-number {
+    font-size: 2.35rem;
+    line-height: 1;
+  }
+
+  .big-sub {
+    font-size: 0.72rem;
+    margin-bottom: 18px;
+  }
+
+  .stats-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .stat {
+    padding: 12px 10px;
+    border-radius: 14px;
+  }
+
+  .stat-num {
+    font-size: 1.05rem;
+  }
+
+  .stat-lbl {
+    font-size: 0.58rem;
+    margin-top: 4px;
+  }
+
+  .verdict-box {
+    font-size: 0.92rem;
+    padding: 14px 12px;
+    line-height: 1.45;
+    border-radius: 14px;
+  }
+
+  canvas {
+    max-height: 200px;
+  }
+
+  .footer-note {
+    font-size: 0.65rem;
+    line-height: 1.5;
+  }
+
+  .orb-1,
+  .orb-2,
+  .orb-3 {
+    display: none;
+  }
+
+  .card:hover,
+  .chart-card:hover,
+  .result-card:hover,
+  .chip:hover {
+    transform: none;
   }
 }
   </style>
